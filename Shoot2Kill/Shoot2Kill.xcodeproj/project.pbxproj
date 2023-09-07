@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C553AA2AA9D135002BCFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553A92AA9D135002BCFB2 /* AppDelegate.swift */; };
+		04C553B02AA9D135002BCFB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553AF2AA9D135002BCFB2 /* GameScene.swift */; };
+		04C553B22AA9D135002BCFB2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553B12AA9D135002BCFB2 /* GameViewController.swift */; };
+		04C553B52AA9D135002BCFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C553B32AA9D135002BCFB2 /* Main.storyboard */; };
+		04C553BA2AA9D137002BCFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C553B82AA9D137002BCFB2 /* LaunchScreen.storyboard */; };
+		04C553C42AA9D137002BCFB2 /* Shoot2KillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553C32AA9D137002BCFB2 /* Shoot2KillTests.swift */; };
+		04C553CE2AA9D137002BCFB2 /* Shoot2KillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553CD2AA9D137002BCFB2 /* Shoot2KillUITests.swift */; };
+		04C553D02AA9D137002BCFB2 /* Shoot2KillUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553CF2AA9D137002BCFB2 /* Shoot2KillUITestsLaunchTests.swift */; };
+		04C553DD2AA9D151002BCFB2 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 04C553DC2AA9D151002BCFB2 /* Assets */; };
+		04C553E62AA9D4D7002BCFB2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C553E52AA9D4D7002BCFB2 /* Constant.swift */; };
+		04C553E92AA9D90A002BCFB2 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C553E72AA9D90A002BCFB2 /* Explosion.sks */; };
+		04C553EA2AA9D90A002BCFB2 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C553E82AA9D90A002BCFB2 /* Starfield.sks */; };
+		04C553EF2AA9DCAE002BCFB2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C553ED2AA9DCAE002BCFB2 /* GameScene.sks */; };
+		04C553F02AA9DCAE002BCFB2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04C553EE2AA9DCAE002BCFB2 /* Actions.sks */; };
+		04C553F52AA9F173002BCFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C553F42AA9F173002BCFB2 /* Assets.xcassets */; };
+		04C553F72AA9F408002BCFB2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C553F62AA9F408002BCFB2 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C553C02AA9D137002BCFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C5539E2AA9D135002BCFB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C553A52AA9D135002BCFB2;
+			remoteInfo = Shoot2Kill;
+		};
+		04C553CA2AA9D137002BCFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C5539E2AA9D135002BCFB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C553A52AA9D135002BCFB2;
+			remoteInfo = Shoot2Kill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C553A62AA9D135002BCFB2 /* Shoot2Kill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoot2Kill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C553A92AA9D135002BCFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C553AF2AA9D135002BCFB2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		04C553B12AA9D135002BCFB2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		04C553B42AA9D135002BCFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C553B92AA9D137002BCFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C553BF2AA9D137002BCFB2 /* Shoot2KillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shoot2KillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C553C32AA9D137002BCFB2 /* Shoot2KillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoot2KillTests.swift; sourceTree = "<group>"; };
+		04C553C92AA9D137002BCFB2 /* Shoot2KillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shoot2KillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C553CD2AA9D137002BCFB2 /* Shoot2KillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoot2KillUITests.swift; sourceTree = "<group>"; };
+		04C553CF2AA9D137002BCFB2 /* Shoot2KillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoot2KillUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04C553DC2AA9D151002BCFB2 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		04C553E52AA9D4D7002BCFB2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		04C553E72AA9D90A002BCFB2 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		04C553E82AA9D90A002BCFB2 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		04C553EB2AA9D9EE002BCFB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C553ED2AA9DCAE002BCFB2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		04C553EE2AA9DCAE002BCFB2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		04C553F42AA9F173002BCFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C553F62AA9F408002BCFB2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C553A32AA9D135002BCFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553BC2AA9D137002BCFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553C62AA9D137002BCFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C5539D2AA9D135002BCFB2 = {
+			isa = PBXGroup;
+			children = (
+				04C553A82AA9D135002BCFB2 /* Shoot2Kill */,
+				04C553EB2AA9D9EE002BCFB2 /* Info.plist */,
+				04C553C22AA9D137002BCFB2 /* Shoot2KillTests */,
+				04C553CC2AA9D137002BCFB2 /* Shoot2KillUITests */,
+				04C553A72AA9D135002BCFB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C553A72AA9D135002BCFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C553A62AA9D135002BCFB2 /* Shoot2Kill.app */,
+				04C553BF2AA9D137002BCFB2 /* Shoot2KillTests.xctest */,
+				04C553C92AA9D137002BCFB2 /* Shoot2KillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C553A82AA9D135002BCFB2 /* Shoot2Kill */ = {
+			isa = PBXGroup;
+			children = (
+				04C553E42AA9D4CA002BCFB2 /* Constant */,
+				04C553DC2AA9D151002BCFB2 /* Assets */,
+				04C553E22AA9D452002BCFB2 /* View */,
+				04C553AF2AA9D135002BCFB2 /* GameScene.swift */,
+				04C553B12AA9D135002BCFB2 /* GameViewController.swift */,
+				04C553E32AA9D464002BCFB2 /* Supporting Files */,
+				04C553E72AA9D90A002BCFB2 /* Explosion.sks */,
+				04C553F62AA9F408002BCFB2 /* icon.png */,
+				04C553E82AA9D90A002BCFB2 /* Starfield.sks */,
+				04C553F42AA9F173002BCFB2 /* Assets.xcassets */,
+			);
+			path = Shoot2Kill;
+			sourceTree = "<group>";
+		};
+		04C553C22AA9D137002BCFB2 /* Shoot2KillTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C553C32AA9D137002BCFB2 /* Shoot2KillTests.swift */,
+			);
+			path = Shoot2KillTests;
+			sourceTree = "<group>";
+		};
+		04C553CC2AA9D137002BCFB2 /* Shoot2KillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C553CD2AA9D137002BCFB2 /* Shoot2KillUITests.swift */,
+				04C553CF2AA9D137002BCFB2 /* Shoot2KillUITestsLaunchTests.swift */,
+			);
+			path = Shoot2KillUITests;
+			sourceTree = "<group>";
+		};
+		04C553E22AA9D452002BCFB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C553B32AA9D135002BCFB2 /* Main.storyboard */,
+				04C553B82AA9D137002BCFB2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C553E32AA9D464002BCFB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C553EE2AA9DCAE002BCFB2 /* Actions.sks */,
+				04C553ED2AA9DCAE002BCFB2 /* GameScene.sks */,
+				04C553A92AA9D135002BCFB2 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C553E42AA9D4CA002BCFB2 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				04C553E52AA9D4D7002BCFB2 /* Constant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C553A52AA9D135002BCFB2 /* Shoot2Kill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C553D32AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2Kill" */;
+			buildPhases = (
+				04C553A22AA9D135002BCFB2 /* Sources */,
+				04C553A32AA9D135002BCFB2 /* Frameworks */,
+				04C553A42AA9D135002BCFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoot2Kill;
+			productName = Shoot2Kill;
+			productReference = 04C553A62AA9D135002BCFB2 /* Shoot2Kill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C553BE2AA9D137002BCFB2 /* Shoot2KillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C553D62AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2KillTests" */;
+			buildPhases = (
+				04C553BB2AA9D137002BCFB2 /* Sources */,
+				04C553BC2AA9D137002BCFB2 /* Frameworks */,
+				04C553BD2AA9D137002BCFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C553C12AA9D137002BCFB2 /* PBXTargetDependency */,
+			);
+			name = Shoot2KillTests;
+			productName = Shoot2KillTests;
+			productReference = 04C553BF2AA9D137002BCFB2 /* Shoot2KillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C553C82AA9D137002BCFB2 /* Shoot2KillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C553D92AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2KillUITests" */;
+			buildPhases = (
+				04C553C52AA9D137002BCFB2 /* Sources */,
+				04C553C62AA9D137002BCFB2 /* Frameworks */,
+				04C553C72AA9D137002BCFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C553CB2AA9D137002BCFB2 /* PBXTargetDependency */,
+			);
+			name = Shoot2KillUITests;
+			productName = Shoot2KillUITests;
+			productReference = 04C553C92AA9D137002BCFB2 /* Shoot2KillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C5539E2AA9D135002BCFB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04C553A52AA9D135002BCFB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					04C553BE2AA9D137002BCFB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04C553A52AA9D135002BCFB2;
+					};
+					04C553C82AA9D137002BCFB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04C553A52AA9D135002BCFB2;
+					};
+				};
+			};
+			buildConfigurationList = 04C553A12AA9D135002BCFB2 /* Build configuration list for PBXProject "Shoot2Kill" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C5539D2AA9D135002BCFB2;
+			productRefGroup = 04C553A72AA9D135002BCFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C553A52AA9D135002BCFB2 /* Shoot2Kill */,
+				04C553BE2AA9D137002BCFB2 /* Shoot2KillTests */,
+				04C553C82AA9D137002BCFB2 /* Shoot2KillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C553A42AA9D135002BCFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C553B52AA9D135002BCFB2 /* Main.storyboard in Resources */,
+				04C553DD2AA9D151002BCFB2 /* Assets in Resources */,
+				04C553EA2AA9D90A002BCFB2 /* Starfield.sks in Resources */,
+				04C553F72AA9F408002BCFB2 /* icon.png in Resources */,
+				04C553F02AA9DCAE002BCFB2 /* Actions.sks in Resources */,
+				04C553BA2AA9D137002BCFB2 /* LaunchScreen.storyboard in Resources */,
+				04C553EF2AA9DCAE002BCFB2 /* GameScene.sks in Resources */,
+				04C553F52AA9F173002BCFB2 /* Assets.xcassets in Resources */,
+				04C553E92AA9D90A002BCFB2 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553BD2AA9D137002BCFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553C72AA9D137002BCFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C553A22AA9D135002BCFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C553B02AA9D135002BCFB2 /* GameScene.swift in Sources */,
+				04C553B22AA9D135002BCFB2 /* GameViewController.swift in Sources */,
+				04C553AA2AA9D135002BCFB2 /* AppDelegate.swift in Sources */,
+				04C553E62AA9D4D7002BCFB2 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553BB2AA9D137002BCFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C553C42AA9D137002BCFB2 /* Shoot2KillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C553C52AA9D137002BCFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C553CE2AA9D137002BCFB2 /* Shoot2KillUITests.swift in Sources */,
+				04C553D02AA9D137002BCFB2 /* Shoot2KillUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C553C12AA9D137002BCFB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C553A52AA9D135002BCFB2 /* Shoot2Kill */;
+			targetProxy = 04C553C02AA9D137002BCFB2 /* PBXContainerItemProxy */;
+		};
+		04C553CB2AA9D137002BCFB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C553A52AA9D135002BCFB2 /* Shoot2Kill */;
+			targetProxy = 04C553CA2AA9D137002BCFB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C553B32AA9D135002BCFB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C553B42AA9D135002BCFB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C553B82AA9D137002BCFB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C553B92AA9D137002BCFB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C553D12AA9D137002BCFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C553D22AA9D137002BCFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C553D42AA9D137002BCFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PUDK77X6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2Kill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C553D52AA9D137002BCFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PUDK77X6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2Kill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04C553D72AA9D137002BCFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2KillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot2Kill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoot2Kill";
+			};
+			name = Debug;
+		};
+		04C553D82AA9D137002BCFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2KillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot2Kill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoot2Kill";
+			};
+			name = Release;
+		};
+		04C553DA2AA9D137002BCFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2KillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoot2Kill;
+			};
+			name = Debug;
+		};
+		04C553DB2AA9D137002BCFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kah-identifier.Shoot2KillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoot2Kill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C553A12AA9D135002BCFB2 /* Build configuration list for PBXProject "Shoot2Kill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C553D12AA9D137002BCFB2 /* Debug */,
+				04C553D22AA9D137002BCFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C553D32AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2Kill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C553D42AA9D137002BCFB2 /* Debug */,
+				04C553D52AA9D137002BCFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C553D62AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2KillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C553D72AA9D137002BCFB2 /* Debug */,
+				04C553D82AA9D137002BCFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C553D92AA9D137002BCFB2 /* Build configuration list for PBXNativeTarget "Shoot2KillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C553DA2AA9D137002BCFB2 /* Debug */,
+				04C553DB2AA9D137002BCFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C5539E2AA9D135002BCFB2 /* Project object */;
+}
